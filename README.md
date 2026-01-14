@@ -1,59 +1,32 @@
-# HomeworkAssignmentLesson03
+# homeworkAssignment_Lesson_03 / [Live](https://homework-assignment-lesson-03.vercel.app/)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.3.
+## Features:
 
-## Development server
+● Implement a directive that updates the background color of the element to a random value on every click. 
+Import it to a component and apply to several elements. - ### Task 1
 
-To start a local development server, run:
+● Implement a directive that hides the entire content of container on double-click. Import it to a component and 
+apply to several elements. - ### Task 2
 
-```bash
-ng serve
-```
+● Implement the directive that counts the amount of clicks for the element. On each click emit the event itself and 
+the click count via the output property(-ies). Import it to a component and apply to several elements. - ### Task 3
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+**Folder Structure:**
 
-## Code scaffolding
+src/app/tasks/  
+├─ [first-task/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_03/tree/main/src/app/tasks/first-task)  
+├─ directives/
+├─ first-task.component.ts  
+├─ first-task.component.html  
+├─ first-task.component.scss  
+├─ [second-task/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_03/tree/main/src/app/tasks/second-task) 
+├─ directives/
+├─ second-task.component.ts  
+├─ second-task.component.html  
+├─ second-task.component.scss  
+├─ [third-task/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/dice-controls) 
+├─ directives/
+├─ third-task.component.ts  
+├─ third-task.component.html  
+├─ third-task.component.scss
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
