@@ -3,13 +3,13 @@
 ## Features:
 
 ● Implement a directive that updates the background color of the element to a random value on every click. 
-Import it to a component and apply to several elements. - ** Task 1 **
+Import it to a component and apply to several elements. - **Task 1**
 
 ● Implement a directive that hides the entire content of container on double-click. Import it to a component and 
-apply to several elements. - ** Task 2 **
+apply to several elements. - **Task 2**
 
 ● Implement the directive that counts the amount of clicks for the element. On each click emit the event itself and 
-the click count via the output property(-ies). Import it to a component and apply to several elements. - ** Task 3 **
+the click count via the output property(-ies). Import it to a component and apply to several elements. - **Task 3**
 
 **Folder Structure:**
 
