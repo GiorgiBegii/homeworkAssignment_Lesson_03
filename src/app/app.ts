@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { FirstTask } from './tasks/first-task/first-task';
+import { SecondTask } from './tasks/second-task/second-task';
+import { ThirdTask } from './tasks/third-task/third-task';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [FirstTask, SecondTask, ThirdTask],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
