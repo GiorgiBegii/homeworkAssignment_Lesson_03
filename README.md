@@ -13,20 +13,4 @@ the click count via the output property(-ies). Import it to a component and appl
 
 **Folder Structure:**
 
-src/app/tasks/
-├─ [first-task/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_03/tree/main/src/app/tasks/first-task)
-│  ├─ directives/
-│  ├─ first-task.component.ts
-│  ├─ first-task.component.html
-│  ├─ first-task.component.scss
-├─ [second-task/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_03/tree/main/src/app/tasks/second-task)
-│  ├─ directives/
-│  ├─ second-task.component.ts
-│  ├─ second-task.component.html
-│  ├─ second-task.component.scss
-├─ [third-task/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/dice-controls)
-│  ├─ directives/
-│  ├─ third-task.component.ts
-│  ├─ third-task.component.html
-│  ├─ third-task.component.scss
-
+<pre> ```plaintext src/app/tasks/ ├─ [first-task/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_03/tree/main/src/app/tasks/first-task) │ ├─ directives/ │ ├─ first-task.component.ts │ ├─ first-task.component.html │ ├─ first-task.component.scss ├─ [second-task/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_03/tree/main/src/app/tasks/second-task) │ ├─ directives/ │ ├─ second-task.component.ts │ ├─ second-task.component.html │ ├─ second-task.component.scss ├─ [third-task/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_02/tree/main/src/app/dice-controls) │ ├─ directives/ │ ├─ third-task.component.ts │ ├─ third-task.component.html │ ├─ third-task.component.scss ``` </pre>
